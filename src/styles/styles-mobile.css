@@ -1,0 +1,43 @@
+@media screen and (width <= 600px) {
+
+  .container {
+    padding: var(--size-25px) var(--size-10px);
+    grid-template-columns: 1fr;
+  }
+
+  .decorated-zone {
+    --padding: var(--size-10px);
+    min-block-size: 668px;
+  }
+
+  .decorated-zone::before,
+  .decorated-zone::after {
+    --inset: var(--size-10px);
+  }
+
+  .header {
+    margin-block-end: 15px;
+  }
+
+  .header__rec {
+    inset-inline-end: var(--size-10px);
+    inset-block-start: var(--size-10px);
+  }
+
+  .heading--accent {
+    font-size: clamp(5rem, -9.625rem + 72vw, 7.25rem);
+  }
+
+  .header__text {
+    max-width: 100%;
+    margin-block-end: 0;
+  }
+
+  .features-list {
+    grid-column: auto;
+  }
+
+  .gallery-container {
+    gap: var(--size-10px);
+  }
+}

@@ -1,0 +1,19 @@
+@media screen and (width <= 768px) {
+
+  .decorated-zone {
+    min-block-size: 1024px;
+  }
+
+  .header__theme-menu {
+    justify-self: end;
+    align-self: center;
+  }
+
+  .header__theme-menu-list {
+    flex-direction: column;
+  }
+
+  .heading--accent {
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  }
+}
