@@ -1,0 +1,19 @@
+:root {
+  --breakpoint-tablet: 768px;
+  --breakpoint-mobile: 375px;
+
+  --font: 'IBM Plex mono';
+
+  --font-size: calc(18rem / 16);
+  --size-40px: calc(40rem / 16);
+  --size-25px: calc(25rem / 16);
+  --size-20px: calc(20rem / 16);
+  --size-10px: calc(10rem / 16);
+
+  --font-color: #353430;
+  --background-color: #fff1f7;
+  --accent-color: #ff8dcb;
+  --accent-color-alt: #ffc2e6;
+
+  --background-image: url(../images/cover-image-light.png);
+}
