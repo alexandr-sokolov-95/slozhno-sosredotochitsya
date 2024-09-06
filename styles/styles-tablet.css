@@ -1,4 +1,4 @@
-@media screen and (width <= 768px) {
+@media (width < 1024px) {
 
   .decorated-zone {
     min-block-size: 1024px;
@@ -11,18 +11,9 @@
 
   .header__theme-menu-list {
     flex-direction: column;
-    margin-block-start: 7.75rem;
   }
 
   .heading--accent {
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  }
-
-  .header__text {
-    margin-block-end: 8rem;
-  }
-
-  .features-list:not(.features-list--horizontal) {
-    margin-inline-start: 0.3rem;
   }
 }

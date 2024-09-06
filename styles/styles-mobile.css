@@ -1,4 +1,4 @@
-@media screen and (width <= 600px) {
+@media (width < 768px) {
 
   .container {
     padding: var(--size-25px) var(--size-10px);
@@ -8,7 +8,6 @@
   .decorated-zone {
     --padding: var(--size-10px);
     min-block-size: 668px;
-    gap: 0;
   }
 
   .decorated-zone::before,
@@ -25,26 +24,27 @@
     inset-block-start: var(--size-10px);
   }
 
-  .header__theme-menu-list {
-    margin-block-start: 0;
-    margin-block-end: 0.5rem;
-  }
-
   .heading--accent {
     font-size: clamp(5rem, -9.625rem + 72vw, 7.25rem);
   }
 
   .header__text {
     max-width: 100%;
-    margin-block-end: 0;
   }
 
   .features-list {
     grid-column: auto;
-    margin-inline-start: 0;
   }
 
-  .gallery-container {
+  .how-article {
+    grid-column: auto;
+  }
+
+  .container--gallery {
     gap: var(--size-10px);
+  }
+
+  .footer {
+    margin-block-start: 15px;
   }
 }

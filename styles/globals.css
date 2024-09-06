@@ -25,6 +25,10 @@ p {
   font-size: inherit;
 }
 
+p:not(:last-child) {
+  margin-bottom: var(--size-10px);
+}
+
 ul {
   margin: 0;
   padding: 0;
