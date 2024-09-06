@@ -176,7 +176,7 @@
 
 .header__text {
   justify-self: end;
-  margin-block-end: 4.5rem;
+  /* margin-block-end: 4.5rem; */
   max-width: 50%;
 }
 
