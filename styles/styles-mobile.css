@@ -24,8 +24,16 @@
     inset-block-start: var(--size-10px);
   }
 
+  .header__theme-menu {
+    margin-block-end: 0.85rem;
+  }
+
   .heading--accent {
     font-size: clamp(5rem, -9.625rem + 72vw, 7.25rem);
+  }
+
+  .header .heading {
+    left: 0;
   }
 
   .header__text {

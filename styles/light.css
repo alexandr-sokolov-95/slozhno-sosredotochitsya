@@ -7,16 +7,16 @@
   --background-image: url(../images/cover-image-light.png);
 }
 
-.page.theme_light .heading {
+.page.theme_light .header__rec {
+  --display: none;
+}
+
+/* .page.theme_light .heading {
   --color: var(--font-color);
 }
 
 .page.theme_light .title-decor {
   --color: var(--font-color);
-}
-
-.page.theme_light .header__rec {
-  --display: none;
 }
 
 .page.theme_light .heading--accent {
@@ -34,4 +34,4 @@
 
 .page.theme_light .header__theme-menu-button:hover {
   --border-color: rgb(50 49 45 / 0.4);
-}
+} */
