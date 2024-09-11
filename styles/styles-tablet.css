@@ -20,4 +20,9 @@
   .container--what .features-list {
     grid-template-columns: 1fr;
   }
+
+  .container--why .features-list,
+  .how-article {
+    margin-inline-start: 0.4rem;
+  }
 }

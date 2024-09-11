@@ -48,6 +48,11 @@
     grid-column: auto;
   }
 
+  .container--why .features-list,
+  .how-article {
+    margin-inline-start: 0;
+  }
+
   .container--gallery {
     gap: var(--size-10px);
   }
